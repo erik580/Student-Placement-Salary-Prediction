@@ -5,8 +5,8 @@ import pandas as pd
 # =========================
 # LOAD MODELS
 # =========================
-clf_model = joblib.load("artifacts/student_placement_classifier.pkl")
-reg_model = joblib.load("artifacts/student_placement_salary_regression.pkl")
+clf_model = joblib.load("student_placement_classifier.pkl")
+reg_model = joblib.load("student_placement_salary_regression.pkl")
 
 
 # =========================
